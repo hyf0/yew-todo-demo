@@ -6,7 +6,7 @@ edition = "2018"
 
 [package.metadata.commands]
 build = "wasm-pack build --target web --out-name wasm --out-dir ./docs"
-serve = "http-server public/"
+serve = "http-server docs/"
 start = "cargo cmd build && cargo cmd serve"
 watch = "nodemon -w src/ -e .rs --exec 'cargo cmd start'"
 

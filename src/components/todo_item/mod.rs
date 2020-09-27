@@ -36,7 +36,6 @@ impl Component for TodoItem {
                 return  false;
             },
         }
-        true
     }
 
     fn change(&mut self, props: Self::Properties) -> ShouldRender {

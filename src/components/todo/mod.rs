@@ -74,8 +74,8 @@ impl Component for Todo {
   fn view(&self) -> Html {
     html! {
         <div class="ToDo">
-        <img class="Logo" src={"/assets/rust.svg"} alt="Rust logo" />
-        <img class="Logo" src={"/assets/yew.svg"} alt="Yew logo" />
+        <img class="Logo" src={"./assets/rust.svg"} alt="Rust logo" />
+        <img class="Logo" src={"./assets/yew.svg"} alt="Yew logo" />
         <h1 class="ToDo-Header">{"Yew(by Rust) To Do"}</h1>
         <div class="ToDo-Container">
           <div class="ToDo-Content">
